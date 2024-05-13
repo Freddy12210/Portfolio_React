@@ -1,5 +1,6 @@
 import React from 'react';
 import Download from './Download';
+import RapportE5 from '../assets/docBTS/2024-MORILLEAU-Freddy-Rapport E5.pdf';
 import RapportConformité1 from '../assets/docBTS/2024-MORILLEAU-Freddy-SLAM-1.pdf';
 import RapportConformité2 from '../assets/docBTS/2024-MORILLEAU-Freddy-SLAM-2.pdf';
 
@@ -18,7 +19,7 @@ const E5 = () => {
                         <div className='E5-element'>
                             <h2>Rapports E5</h2>
                             <hr />
-                            <h3>à venir</h3>
+                            <Download doc={RapportE5} message="Télécharger le rapport E5" />
                         </div>
                         <div className='E5-element'>
                             <h2>Contrôles de comformité</h2>
